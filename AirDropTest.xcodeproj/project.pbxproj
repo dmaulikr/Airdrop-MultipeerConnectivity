@@ -1,0 +1,509 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6A00D1761790495600D7A8BA /* plain-button.png in Resources */ = {isa = PBXBuildFile; fileRef = 6A00D1741790495600D7A8BA /* plain-button.png */; };
+		6A00D1771790495600D7A8BA /* cont-bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 6A00D1751790495600D7A8BA /* cont-bg.png */; };
+		6A779156179468EE0004BAF5 /* images.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 6A779155179468EE0004BAF5 /* images.jpeg */; };
+		6A998E8B179AA25900849BBE /* AirDropViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A998E89179AA25900849BBE /* AirDropViewController.m */; };
+		6A998E8C179AA25900849BBE /* AirDropViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A998E89179AA25900849BBE /* AirDropViewController.m */; };
+		6AAD3192179A47740065899A /* onlineS.png in Resources */ = {isa = PBXBuildFile; fileRef = 6AAD3190179A47740065899A /* onlineS.png */; };
+		6AAD3193179A47740065899A /* onlineS.png in Resources */ = {isa = PBXBuildFile; fileRef = 6AAD3190179A47740065899A /* onlineS.png */; };
+		6AAD3194179A47740065899A /* offline-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 6AAD3191179A47740065899A /* offline-icon.png */; };
+		6AAD3195179A47740065899A /* offline-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 6AAD3191179A47740065899A /* offline-icon.png */; };
+		6AB927FD178EDCCD005D167C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6AB927FC178EDCCD005D167C /* Foundation.framework */; };
+		6AB927FF178EDCCD005D167C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6AB927FE178EDCCD005D167C /* CoreGraphics.framework */; };
+		6AB92801178EDCCD005D167C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6AB92800178EDCCD005D167C /* UIKit.framework */; };
+		6AB92807178EDCCD005D167C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6AB92805178EDCCD005D167C /* InfoPlist.strings */; };
+		6AB92809178EDCCD005D167C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AB92808178EDCCD005D167C /* main.m */; };
+		6AB9280D178EDCCD005D167C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AB9280C178EDCCD005D167C /* AppDelegate.m */; };
+		6AB92810178EDCCD005D167C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6AB9280E178EDCCD005D167C /* Main.storyboard */; };
+		6AB92813178EDCCD005D167C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AB92812178EDCCD005D167C /* ViewController.m */; };
+		6AB92815178EDCCD005D167C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6AB92814178EDCCD005D167C /* Images.xcassets */; };
+		6AB9281C178EDCCD005D167C /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6AB9281B178EDCCD005D167C /* XCTest.framework */; };
+		6AB9281D178EDCCD005D167C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6AB927FC178EDCCD005D167C /* Foundation.framework */; };
+		6AB9281E178EDCCD005D167C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6AB92800178EDCCD005D167C /* UIKit.framework */; };
+		6AB92826178EDCCD005D167C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6AB92824178EDCCD005D167C /* InfoPlist.strings */; };
+		6AB92828178EDCCD005D167C /* AirDropTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AB92827178EDCCD005D167C /* AirDropTestTests.m */; };
+		6AB92832178EDCDC005D167C /* MultipeerConnectivity.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6AB92831178EDCDC005D167C /* MultipeerConnectivity.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6AB9281F178EDCCD005D167C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6AB927F1178EDCCD005D167C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6AB927F8178EDCCD005D167C;
+			remoteInfo = AirDropTest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6A00D1741790495600D7A8BA /* plain-button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "plain-button.png"; sourceTree = "<group>"; };
+		6A00D1751790495600D7A8BA /* cont-bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cont-bg.png"; sourceTree = "<group>"; };
+		6A779155179468EE0004BAF5 /* images.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = images.jpeg; sourceTree = "<group>"; };
+		6A998E88179AA25900849BBE /* AirDropViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AirDropViewController.h; sourceTree = "<group>"; };
+		6A998E89179AA25900849BBE /* AirDropViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AirDropViewController.m; sourceTree = "<group>"; };
+		6AAD3190179A47740065899A /* onlineS.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = onlineS.png; sourceTree = "<group>"; };
+		6AAD3191179A47740065899A /* offline-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "offline-icon.png"; sourceTree = "<group>"; };
+		6AB927F9178EDCCD005D167C /* AirDropTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AirDropTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6AB927FC178EDCCD005D167C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		6AB927FE178EDCCD005D167C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		6AB92800178EDCCD005D167C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		6AB92804178EDCCD005D167C /* AirDropTest-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AirDropTest-Info.plist"; sourceTree = "<group>"; };
+		6AB92806178EDCCD005D167C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6AB92808178EDCCD005D167C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6AB9280A178EDCCD005D167C /* AirDropTest-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AirDropTest-Prefix.pch"; sourceTree = "<group>"; };
+		6AB9280B178EDCCD005D167C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6AB9280C178EDCCD005D167C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6AB9280F178EDCCD005D167C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6AB92811178EDCCD005D167C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		6AB92812178EDCCD005D167C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		6AB92814178EDCCD005D167C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		6AB9281A178EDCCD005D167C /* AirDropTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AirDropTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6AB9281B178EDCCD005D167C /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		6AB92823178EDCCD005D167C /* AirDropTestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AirDropTestTests-Info.plist"; sourceTree = "<group>"; };
+		6AB92825178EDCCD005D167C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6AB92827178EDCCD005D167C /* AirDropTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AirDropTestTests.m; sourceTree = "<group>"; };
+		6AB92831178EDCDC005D167C /* MultipeerConnectivity.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MultipeerConnectivity.framework; path = System/Library/Frameworks/MultipeerConnectivity.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6AB927F6178EDCCD005D167C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6AB92832178EDCDC005D167C /* MultipeerConnectivity.framework in Frameworks */,
+				6AB927FF178EDCCD005D167C /* CoreGraphics.framework in Frameworks */,
+				6AB92801178EDCCD005D167C /* UIKit.framework in Frameworks */,
+				6AB927FD178EDCCD005D167C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6AB92817178EDCCD005D167C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6AB9281C178EDCCD005D167C /* XCTest.framework in Frameworks */,
+				6AB9281E178EDCCD005D167C /* UIKit.framework in Frameworks */,
+				6AB9281D178EDCCD005D167C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6AB927F0178EDCCD005D167C = {
+			isa = PBXGroup;
+			children = (
+				6AB92802178EDCCD005D167C /* AirDropTest */,
+				6AB92821178EDCCD005D167C /* AirDropTestTests */,
+				6AB927FB178EDCCD005D167C /* Frameworks */,
+				6AB927FA178EDCCD005D167C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6AB927FA178EDCCD005D167C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6AB927F9178EDCCD005D167C /* AirDropTest.app */,
+				6AB9281A178EDCCD005D167C /* AirDropTestTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6AB927FB178EDCCD005D167C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6AB92831178EDCDC005D167C /* MultipeerConnectivity.framework */,
+				6AB927FC178EDCCD005D167C /* Foundation.framework */,
+				6AB927FE178EDCCD005D167C /* CoreGraphics.framework */,
+				6AB92800178EDCCD005D167C /* UIKit.framework */,
+				6AB9281B178EDCCD005D167C /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6AB92802178EDCCD005D167C /* AirDropTest */ = {
+			isa = PBXGroup;
+			children = (
+				6AAD3190179A47740065899A /* onlineS.png */,
+				6AAD3191179A47740065899A /* offline-icon.png */,
+				6A00D1741790495600D7A8BA /* plain-button.png */,
+				6A779155179468EE0004BAF5 /* images.jpeg */,
+				6A00D1751790495600D7A8BA /* cont-bg.png */,
+				6AB9280B178EDCCD005D167C /* AppDelegate.h */,
+				6AB9280C178EDCCD005D167C /* AppDelegate.m */,
+				6AB9280E178EDCCD005D167C /* Main.storyboard */,
+				6AB92811178EDCCD005D167C /* ViewController.h */,
+				6AB92812178EDCCD005D167C /* ViewController.m */,
+				6AB92814178EDCCD005D167C /* Images.xcassets */,
+				6AB92803178EDCCD005D167C /* Supporting Files */,
+				6A998E88179AA25900849BBE /* AirDropViewController.h */,
+				6A998E89179AA25900849BBE /* AirDropViewController.m */,
+			);
+			path = AirDropTest;
+			sourceTree = "<group>";
+		};
+		6AB92803178EDCCD005D167C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6AB92804178EDCCD005D167C /* AirDropTest-Info.plist */,
+				6AB92805178EDCCD005D167C /* InfoPlist.strings */,
+				6AB92808178EDCCD005D167C /* main.m */,
+				6AB9280A178EDCCD005D167C /* AirDropTest-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6AB92821178EDCCD005D167C /* AirDropTestTests */ = {
+			isa = PBXGroup;
+			children = (
+				6AB92827178EDCCD005D167C /* AirDropTestTests.m */,
+				6AB92822178EDCCD005D167C /* Supporting Files */,
+			);
+			path = AirDropTestTests;
+			sourceTree = "<group>";
+		};
+		6AB92822178EDCCD005D167C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6AB92823178EDCCD005D167C /* AirDropTestTests-Info.plist */,
+				6AB92824178EDCCD005D167C /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6AB927F8178EDCCD005D167C /* AirDropTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6AB9282B178EDCCD005D167C /* Build configuration list for PBXNativeTarget "AirDropTest" */;
+			buildPhases = (
+				6AB927F5178EDCCD005D167C /* Sources */,
+				6AB927F6178EDCCD005D167C /* Frameworks */,
+				6AB927F7178EDCCD005D167C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AirDropTest;
+			productName = AirDropTest;
+			productReference = 6AB927F9178EDCCD005D167C /* AirDropTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6AB92819178EDCCD005D167C /* AirDropTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6AB9282E178EDCCD005D167C /* Build configuration list for PBXNativeTarget "AirDropTestTests" */;
+			buildPhases = (
+				6AB92816178EDCCD005D167C /* Sources */,
+				6AB92817178EDCCD005D167C /* Frameworks */,
+				6AB92818178EDCCD005D167C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6AB92820178EDCCD005D167C /* PBXTargetDependency */,
+			);
+			name = AirDropTestTests;
+			productName = AirDropTestTests;
+			productReference = 6AB9281A178EDCCD005D167C /* AirDropTestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6AB927F1178EDCCD005D167C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = Alti;
+				TargetAttributes = {
+					6AB92819178EDCCD005D167C = {
+						TestTargetID = 6AB927F8178EDCCD005D167C;
+					};
+				};
+			};
+			buildConfigurationList = 6AB927F4178EDCCD005D167C /* Build configuration list for PBXProject "AirDropTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6AB927F0178EDCCD005D167C;
+			productRefGroup = 6AB927FA178EDCCD005D167C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6AB927F8178EDCCD005D167C /* AirDropTest */,
+				6AB92819178EDCCD005D167C /* AirDropTestTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6AB927F7178EDCCD005D167C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A00D1761790495600D7A8BA /* plain-button.png in Resources */,
+				6A00D1771790495600D7A8BA /* cont-bg.png in Resources */,
+				6AB92815178EDCCD005D167C /* Images.xcassets in Resources */,
+				6AB92807178EDCCD005D167C /* InfoPlist.strings in Resources */,
+				6AAD3194179A47740065899A /* offline-icon.png in Resources */,
+				6AAD3192179A47740065899A /* onlineS.png in Resources */,
+				6AB92810178EDCCD005D167C /* Main.storyboard in Resources */,
+				6A779156179468EE0004BAF5 /* images.jpeg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6AB92818178EDCCD005D167C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6AAD3193179A47740065899A /* onlineS.png in Resources */,
+				6AAD3195179A47740065899A /* offline-icon.png in Resources */,
+				6AB92826178EDCCD005D167C /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6AB927F5178EDCCD005D167C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6AB92813178EDCCD005D167C /* ViewController.m in Sources */,
+				6AB9280D178EDCCD005D167C /* AppDelegate.m in Sources */,
+				6A998E8B179AA25900849BBE /* AirDropViewController.m in Sources */,
+				6AB92809178EDCCD005D167C /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6AB92816178EDCCD005D167C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A998E8C179AA25900849BBE /* AirDropViewController.m in Sources */,
+				6AB92828178EDCCD005D167C /* AirDropTestTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6AB92820178EDCCD005D167C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6AB927F8178EDCCD005D167C /* AirDropTest */;
+			targetProxy = 6AB9281F178EDCCD005D167C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6AB92805178EDCCD005D167C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6AB92806178EDCCD005D167C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		6AB9280E178EDCCD005D167C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6AB9280F178EDCCD005D167C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6AB92824178EDCCD005D167C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6AB92825178EDCCD005D167C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6AB92829178EDCCD005D167C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		6AB9282A178EDCCD005D167C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6AB9282C178EDCCD005D167C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Shri Harsha (MT4Y63D3NV)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AirDropTest/AirDropTest-Prefix.pch";
+				INFOPLIST_FILE = "AirDropTest/AirDropTest-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		6AB9282D178EDCCD005D167C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Shri Harsha (MT4Y63D3NV)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AirDropTest/AirDropTest-Prefix.pch";
+				INFOPLIST_FILE = "AirDropTest/AirDropTest-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		6AB9282F178EDCCD005D167C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/AirDropTest.app/AirDropTest";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(SYSTEM_APPS_DIR)/Xcode5-DP3.app/Contents/Developer/Library/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AirDropTest/AirDropTest-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "AirDropTestTests/AirDropTestTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		6AB92830178EDCCD005D167C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/AirDropTest.app/AirDropTest";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(SYSTEM_APPS_DIR)/Xcode5-DP3.app/Contents/Developer/Library/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AirDropTest/AirDropTest-Prefix.pch";
+				INFOPLIST_FILE = "AirDropTestTests/AirDropTestTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6AB927F4178EDCCD005D167C /* Build configuration list for PBXProject "AirDropTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6AB92829178EDCCD005D167C /* Debug */,
+				6AB9282A178EDCCD005D167C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6AB9282B178EDCCD005D167C /* Build configuration list for PBXNativeTarget "AirDropTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6AB9282C178EDCCD005D167C /* Debug */,
+				6AB9282D178EDCCD005D167C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6AB9282E178EDCCD005D167C /* Build configuration list for PBXNativeTarget "AirDropTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6AB9282F178EDCCD005D167C /* Debug */,
+				6AB92830178EDCCD005D167C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6AB927F1178EDCCD005D167C /* Project object */;
+}
